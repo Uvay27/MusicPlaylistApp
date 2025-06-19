@@ -38,6 +38,7 @@ class MainActivity : AppCompatActivity() {
             button.setOnClickListener {
                 textView.text = "Welcome to the music playlist manager app"
 
+                //List of arrays to store the data
                 fun Songname (songtitle: String) {
                         "Firework"
                         "Godzilla"

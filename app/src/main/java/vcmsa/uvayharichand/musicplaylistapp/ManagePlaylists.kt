@@ -23,19 +23,19 @@ class ManagePlaylists : AppCompatActivity() {
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-
+              //code starts here
             var BtnSongs = findViewById<Button>(R.id.BtnSongs)
             var BtnReturn = findViewById<Button>(R.id.BtnReturn)
             var BtnAvarage = findViewById<Button>(R.id.BtnAvarage)
             var editText6 = findViewById<EditText>(R.id.editText6
-
+                   // this is the button for song choice
                     BtnSongs.setOnClickListener {
                 val  = editText6.text.toString().trim().lowercase()
                 val songs = null
                 val  = songs.filter {
                     val text = null
                     it.contains(text)
-
+                   // this is the button for avarage rating
                     avarageRating(songs)
 
                     fun therating(Therating: String): String? {
